@@ -12,7 +12,7 @@
 		2D6AFE511C34BBF2006AB030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AFE4E1C34BBF2006AB030 /* Main.storyboard */; };
 		2D6AFE591C34BC12006AB030 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AFE561C34BC12006AB030 /* Info.plist */; };
 		2D6AFE5A1C34BC12006AB030 /* Telecom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AFE571C34BC12006AB030 /* Telecom.xcdatamodeld */; };
-		2DA8CCDE1C212BBA002343EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CCDD1C212BBA002343EB /* Assets.xcassets */; };
+		2D6AFE5E1C34C81D006AB030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AFE5D1C34C81D006AB030 /* Assets.xcassets */; };
 		2DA8CCEC1C212BBB002343EB /* TelecomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCEB1C212BBB002343EB /* TelecomTests.swift */; };
 		2DA8CCF71C212BBB002343EB /* TelecomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCF61C212BBB002343EB /* TelecomUITests.swift */; };
 		2DA8CD0A1C21327C002343EB /* 登陆界面320-480.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CD051C21327C002343EB /* 登陆界面320-480.png */; };
@@ -45,8 +45,8 @@
 		2D6AFE4F1C34BBF2006AB030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D6AFE561C34BC12006AB030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D6AFE581C34BC12006AB030 /* Telecom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telecom.xcdatamodel; sourceTree = "<group>"; };
+		2D6AFE5D1C34C81D006AB030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA8CCD01C212BBA002343EB /* Telecom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telecom.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DA8CCDD1C212BBA002343EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DA8CCE71C212BBB002343EB /* TelecomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelecomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA8CCEB1C212BBB002343EB /* TelecomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelecomTests.swift; sourceTree = "<group>"; };
 		2DA8CCED1C212BBB002343EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,6 +175,14 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		2D6AFE5C1C34C81D006AB030 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AFE5D1C34C81D006AB030 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		2DA8CCC71C212BBA002343EB = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +206,8 @@
 		2DA8CCD21C212BBA002343EB /* Telecom */ = {
 			isa = PBXGroup;
 			children = (
+				2D6AFE5C1C34C81D006AB030 /* Images */,
+				2D6AFE421C34BB9B006AB030 /* AppDelegate */,
 				2D6AFE5B1C34BC1C006AB030 /* Util */,
 				2D6AFE541C34BC12006AB030 /* Other */,
 				2D6AFE531C34BC01006AB030 /* FrameworkThird */,
@@ -206,8 +216,6 @@
 				2D6AFE4A1C34BBEA006AB030 /* Infomation */,
 				2D6AFE491C34BBE0006AB030 /* Nearby */,
 				2D6AFE481C34BBD8006AB030 /* Task */,
-				2D6AFE421C34BB9B006AB030 /* AppDelegate */,
-				2DA8CCDD1C212BBA002343EB /* Assets.xcassets */,
 				2D6AFE461C34BBAF006AB030 /* Home */,
 				2D6AFE451C34BBA7006AB030 /* Daily */,
 				2DA8CD041C21327C002343EB /* AppLaunchImage */,
@@ -351,13 +359,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA8CD0D1C21327C002343EB /* 登陆界面640-960-1.png in Resources */,
-				2DA8CCDE1C212BBA002343EB /* Assets.xcassets in Resources */,
 				2D6AFE591C34BC12006AB030 /* Info.plist in Resources */,
 				2DA8CD0A1C21327C002343EB /* 登陆界面320-480.png in Resources */,
 				2D6AFE511C34BBF2006AB030 /* Main.storyboard in Resources */,
 				2DA8CD0C1C21327C002343EB /* 登陆界面5.25.png in Resources */,
 				2D6AFE501C34BBF2006AB030 /* LaunchScreen.storyboard in Resources */,
 				2DA8CD0B1C21327C002343EB /* 登陆界面5.25-1.png in Resources */,
+				2D6AFE5E1C34C81D006AB030 /* Assets.xcassets in Resources */,
 				2DA8CD0E1C21327C002343EB /* 登陆界面640-960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
