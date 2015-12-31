@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DA8CCD41C212BBA002343EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCD31C212BBA002343EB /* AppDelegate.swift */; };
-		2DA8CCD61C212BBA002343EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCD51C212BBA002343EB /* ViewController.swift */; };
-		2DA8CCD91C212BBA002343EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CCD71C212BBA002343EB /* Main.storyboard */; };
-		2DA8CCDC1C212BBA002343EB /* Telecom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCDA1C212BBA002343EB /* Telecom.xcdatamodeld */; };
+		2D6AFE441C34BB9B006AB030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AFE431C34BB9B006AB030 /* AppDelegate.swift */; };
+		2D6AFE501C34BBF2006AB030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AFE4C1C34BBF2006AB030 /* LaunchScreen.storyboard */; };
+		2D6AFE511C34BBF2006AB030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AFE4E1C34BBF2006AB030 /* Main.storyboard */; };
+		2D6AFE591C34BC12006AB030 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D6AFE561C34BC12006AB030 /* Info.plist */; };
+		2D6AFE5A1C34BC12006AB030 /* Telecom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D6AFE571C34BC12006AB030 /* Telecom.xcdatamodeld */; };
 		2DA8CCDE1C212BBA002343EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CCDD1C212BBA002343EB /* Assets.xcassets */; };
-		2DA8CCE11C212BBA002343EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CCDF1C212BBA002343EB /* LaunchScreen.storyboard */; };
 		2DA8CCEC1C212BBB002343EB /* TelecomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCEB1C212BBB002343EB /* TelecomTests.swift */; };
 		2DA8CCF71C212BBB002343EB /* TelecomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA8CCF61C212BBB002343EB /* TelecomUITests.swift */; };
+		2DA8CD0A1C21327C002343EB /* 登陆界面320-480.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CD051C21327C002343EB /* 登陆界面320-480.png */; };
+		2DA8CD0B1C21327C002343EB /* 登陆界面5.25-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CD061C21327C002343EB /* 登陆界面5.25-1.png */; };
+		2DA8CD0C1C21327C002343EB /* 登陆界面5.25.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CD071C21327C002343EB /* 登陆界面5.25.png */; };
+		2DA8CD0D1C21327C002343EB /* 登陆界面640-960-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CD081C21327C002343EB /* 登陆界面640-960-1.png */; };
+		2DA8CD0E1C21327C002343EB /* 登陆界面640-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA8CD091C21327C002343EB /* 登陆界面640-960.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +40,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D6AFE431C34BB9B006AB030 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D6AFE4D1C34BBF2006AB030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D6AFE4F1C34BBF2006AB030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D6AFE561C34BC12006AB030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D6AFE581C34BC12006AB030 /* Telecom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telecom.xcdatamodel; sourceTree = "<group>"; };
 		2DA8CCD01C212BBA002343EB /* Telecom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telecom.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DA8CCD31C212BBA002343EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DA8CCD51C212BBA002343EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2DA8CCD81C212BBA002343EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2DA8CCDB1C212BBA002343EB /* Telecom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Telecom.xcdatamodel; sourceTree = "<group>"; };
 		2DA8CCDD1C212BBA002343EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DA8CCE01C212BBA002343EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2DA8CCE21C212BBB002343EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA8CCE71C212BBB002343EB /* TelecomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelecomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA8CCEB1C212BBB002343EB /* TelecomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelecomTests.swift; sourceTree = "<group>"; };
 		2DA8CCED1C212BBB002343EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA8CCF21C212BBB002343EB /* TelecomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelecomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA8CCF61C212BBB002343EB /* TelecomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelecomUITests.swift; sourceTree = "<group>"; };
 		2DA8CCF81C212BBB002343EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DA8CD051C21327C002343EB /* 登陆界面320-480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆界面320-480.png"; sourceTree = "<group>"; };
+		2DA8CD061C21327C002343EB /* 登陆界面5.25-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆界面5.25-1.png"; sourceTree = "<group>"; };
+		2DA8CD071C21327C002343EB /* 登陆界面5.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆界面5.25.png"; sourceTree = "<group>"; };
+		2DA8CD081C21327C002343EB /* 登陆界面640-960-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆界面640-960-1.png"; sourceTree = "<group>"; };
+		2DA8CD091C21327C002343EB /* 登陆界面640-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆界面640-960.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D6AFE421C34BB9B006AB030 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AFE431C34BB9B006AB030 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2D6AFE451C34BBA7006AB030 /* Daily */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Daily;
+			sourceTree = "<group>";
+		};
+		2D6AFE461C34BBAF006AB030 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2D6AFE481C34BBD8006AB030 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		2D6AFE491C34BBE0006AB030 /* Nearby */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Nearby;
+			sourceTree = "<group>";
+		};
+		2D6AFE4A1C34BBEA006AB030 /* Infomation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infomation;
+			sourceTree = "<group>";
+		};
+		2D6AFE4B1C34BBF2006AB030 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AFE4C1C34BBF2006AB030 /* LaunchScreen.storyboard */,
+				2D6AFE4E1C34BBF2006AB030 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		2D6AFE521C34BBF9006AB030 /* FrameworkSys */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameworkSys;
+			sourceTree = "<group>";
+		};
+		2D6AFE531C34BC01006AB030 /* FrameworkThird */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameworkThird;
+			sourceTree = "<group>";
+		};
+		2D6AFE541C34BC12006AB030 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AFE551C34BC12006AB030 /* SysFile */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2D6AFE551C34BC12006AB030 /* SysFile */ = {
+			isa = PBXGroup;
+			children = (
+				2D6AFE561C34BC12006AB030 /* Info.plist */,
+				2D6AFE571C34BC12006AB030 /* Telecom.xcdatamodeld */,
+			);
+			path = SysFile;
+			sourceTree = "<group>";
+		};
+		2D6AFE5B1C34BC1C006AB030 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		2DA8CCC71C212BBA002343EB = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +198,19 @@
 		2DA8CCD21C212BBA002343EB /* Telecom */ = {
 			isa = PBXGroup;
 			children = (
-				2DA8CCD31C212BBA002343EB /* AppDelegate.swift */,
-				2DA8CCD51C212BBA002343EB /* ViewController.swift */,
-				2DA8CCD71C212BBA002343EB /* Main.storyboard */,
+				2D6AFE5B1C34BC1C006AB030 /* Util */,
+				2D6AFE541C34BC12006AB030 /* Other */,
+				2D6AFE531C34BC01006AB030 /* FrameworkThird */,
+				2D6AFE521C34BBF9006AB030 /* FrameworkSys */,
+				2D6AFE4B1C34BBF2006AB030 /* StoryBoard */,
+				2D6AFE4A1C34BBEA006AB030 /* Infomation */,
+				2D6AFE491C34BBE0006AB030 /* Nearby */,
+				2D6AFE481C34BBD8006AB030 /* Task */,
+				2D6AFE421C34BB9B006AB030 /* AppDelegate */,
 				2DA8CCDD1C212BBA002343EB /* Assets.xcassets */,
-				2DA8CCDF1C212BBA002343EB /* LaunchScreen.storyboard */,
-				2DA8CCE21C212BBB002343EB /* Info.plist */,
-				2DA8CCDA1C212BBA002343EB /* Telecom.xcdatamodeld */,
+				2D6AFE461C34BBAF006AB030 /* Home */,
+				2D6AFE451C34BBA7006AB030 /* Daily */,
+				2DA8CD041C21327C002343EB /* AppLaunchImage */,
 			);
 			path = Telecom;
 			sourceTree = "<group>";
@@ -126,6 +231,18 @@
 				2DA8CCF81C212BBB002343EB /* Info.plist */,
 			);
 			path = TelecomUITests;
+			sourceTree = "<group>";
+		};
+		2DA8CD041C21327C002343EB /* AppLaunchImage */ = {
+			isa = PBXGroup;
+			children = (
+				2DA8CD051C21327C002343EB /* 登陆界面320-480.png */,
+				2DA8CD061C21327C002343EB /* 登陆界面5.25-1.png */,
+				2DA8CD071C21327C002343EB /* 登陆界面5.25.png */,
+				2DA8CD081C21327C002343EB /* 登陆界面640-960-1.png */,
+				2DA8CD091C21327C002343EB /* 登陆界面640-960.png */,
+			);
+			path = AppLaunchImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +313,7 @@
 				TargetAttributes = {
 					2DA8CCCF1C212BBA002343EB = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8DJVMG37WW;
 					};
 					2DA8CCE61C212BBB002343EB = {
 						CreatedOnToolsVersion = 7.2;
@@ -232,9 +350,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA8CCE11C212BBA002343EB /* LaunchScreen.storyboard in Resources */,
+				2DA8CD0D1C21327C002343EB /* 登陆界面640-960-1.png in Resources */,
 				2DA8CCDE1C212BBA002343EB /* Assets.xcassets in Resources */,
-				2DA8CCD91C212BBA002343EB /* Main.storyboard in Resources */,
+				2D6AFE591C34BC12006AB030 /* Info.plist in Resources */,
+				2DA8CD0A1C21327C002343EB /* 登陆界面320-480.png in Resources */,
+				2D6AFE511C34BBF2006AB030 /* Main.storyboard in Resources */,
+				2DA8CD0C1C21327C002343EB /* 登陆界面5.25.png in Resources */,
+				2D6AFE501C34BBF2006AB030 /* LaunchScreen.storyboard in Resources */,
+				2DA8CD0B1C21327C002343EB /* 登陆界面5.25-1.png in Resources */,
+				2DA8CD0E1C21327C002343EB /* 登陆界面640-960.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DA8CCDC1C212BBA002343EB /* Telecom.xcdatamodeld in Sources */,
-				2DA8CCD61C212BBA002343EB /* ViewController.swift in Sources */,
-				2DA8CCD41C212BBA002343EB /* AppDelegate.swift in Sources */,
+				2D6AFE441C34BB9B006AB030 /* AppDelegate.swift in Sources */,
+				2D6AFE5A1C34BC12006AB030 /* Telecom.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +420,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2DA8CCD71C212BBA002343EB /* Main.storyboard */ = {
+		2D6AFE4C1C34BBF2006AB030 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2DA8CCD81C212BBA002343EB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2DA8CCDF1C212BBA002343EB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DA8CCE01C212BBA002343EB /* Base */,
+				2D6AFE4D1C34BBF2006AB030 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2D6AFE4E1C34BBF2006AB030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D6AFE4F1C34BBF2006AB030 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,10 +526,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Telecom/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Xiaofeng (6ZLNQ9A459)";
+				INFOPLIST_FILE = Telecom/Other/SysFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guanghua.Telecom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3a64517-eac9-4e21-b151-d502012def15";
 			};
 			name = Debug;
 		};
@@ -414,10 +541,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Telecom/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peng Xiaofeng (6ZLNQ9A459)";
+				INFOPLIST_FILE = Telecom/Other/SysFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guanghua.Telecom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d3a64517-eac9-4e21-b151-d502012def15";
 			};
 			name = Release;
 		};
@@ -488,6 +619,7 @@
 				2DA8CCFD1C212BBB002343EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DA8CCFE1C212BBB002343EB /* Build configuration list for PBXNativeTarget "TelecomTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +628,7 @@
 				2DA8CD001C212BBB002343EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DA8CD011C212BBB002343EB /* Build configuration list for PBXNativeTarget "TelecomUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,16 +637,17 @@
 				2DA8CD031C212BBB002343EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		2DA8CCDA1C212BBA002343EB /* Telecom.xcdatamodeld */ = {
+		2D6AFE571C34BC12006AB030 /* Telecom.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				2DA8CCDB1C212BBA002343EB /* Telecom.xcdatamodel */,
+				2D6AFE581C34BC12006AB030 /* Telecom.xcdatamodel */,
 			);
-			currentVersion = 2DA8CCDB1C212BBA002343EB /* Telecom.xcdatamodel */;
+			currentVersion = 2D6AFE581C34BC12006AB030 /* Telecom.xcdatamodel */;
 			path = Telecom.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
